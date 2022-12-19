@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Ebay Profit Calculator</title>
+</head>
+<body class="w-1200 mg-auto">
+    <h1 class="center red-color">Ebay Profit Calculator</h1>
+
+    <div class="w-33 fl-left mg-tb-30px ">
+        <label id="ebay_price">Ebay Price</label>
+        <input type="text" id="prixvente">
+    </div>
+    <div class="w-33 fl-left mg-tb-30px ">
+        <label id="ebay_shipping">Ebay Shipping</label>
+        <input type="text" value="0" id="fraislivraisonme">
+    </div>
+    <div class="w-33 fl-left mg-tb-30px ">
+        <label id="drop_price">DropShiping Price</label>
+        <input type="text" id="coutarticle">
+    </div>
+    <div class="w-33 fl-left mg-tb-30px ">
+        <label id="drop_shipping">DropShiping Shipping</label>
+        <input type="text" value="0" id="fraislivraison">
+    </div>
+    <div class="w-33 fl-left mg-tb-30px ">
+        <label id="quantite">Quantité</label>
+        <input type="text" value="1" id="quantitvendu">
+    </div>
+    <div class="w-33 fl-left mg-tb-30px ">
+        <h3 id="fraiss">FRAIS:</h3>
+        <h3 id="benefise">BÉNÉFICE TOTAL:</h3>
+    </div>
+
+    <div class="clear-both">
+        <button class="padding-20 bg-green white-color" id="booton" style="margin-top: 40px;">Calculer</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
